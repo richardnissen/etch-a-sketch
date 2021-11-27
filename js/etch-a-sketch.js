@@ -35,6 +35,7 @@ const clearButton = document.querySelector('button.clear')
 clearButton.addEventListener('click', () => {
     clearGrid()
     initDrawingArea(Number(prompt("Please enter how many squares")));
+    initGridSquareEventListeners("black");
 })
 
 initDrawingArea(16);
