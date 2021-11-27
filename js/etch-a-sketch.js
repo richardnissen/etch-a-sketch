@@ -9,3 +9,13 @@ function initDrawingArea(sqrs) {
         drawingArea.appendChild(square)
     }
 }
+
+function initGridSquareEventListeners() {
+    const gridSquares = document.querySelectorAll('.grid-square');
+    gridSquares.forEach((square) => {
+        square.addEventListener('mouseover', () => {
+            square.style.backgroundColor = "black";
+        });
+    });
+}
+
