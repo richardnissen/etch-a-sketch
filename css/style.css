@@ -1,9 +1,0 @@
-.drawing-area {
-    background-color: pink;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    gap: 0px;
-    height: 400px;
-    width: 400px;
-}
