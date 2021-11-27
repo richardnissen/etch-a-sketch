@@ -1,4 +1,5 @@
 function initDrawingArea(sqrs) {
+    sqrs = Math.min(sqrs, 100)
     const drawingArea = document.querySelector('.drawing-area');
     drawingArea.style.display = "grid";
     drawingArea.style.gridTemplateColumns = `repeat(${sqrs}, 1fr)`;
